@@ -8,5 +8,5 @@ setup(name='input-completer',
       python_requires=">=3.10, <4",
       url='https://github.com/sleppyKid/input-completer.git',
       packages=['input_completer'],
-      install_requires=[],
+      install_requires=['pyreadline3'],
       )
